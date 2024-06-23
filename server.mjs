@@ -25,7 +25,7 @@ const requestURL = [
 		name: "P&L_REPORT",
 		data: {
 			"2023-24": {
-				Quaterly: {
+				QUATERLY: {
 					Q1: {
 						pdf: "https://drive.google.com/file/d/11L112kZnXMjquaI8gWO3Ah2UJgLcyuFW/view?usp=drive_link",
 						excel:
@@ -51,7 +51,7 @@ const requestURL = [
 						csv: "https://drive.google.com/file/d/1qEw8fkPFsV4uaL7vMQwZ3M7UCP5w_wMj/view?usp=drive_link",
 					},
 				},
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1LBMChIEEqgoex1V_T9mjBH20H8w1frnU/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1TlwoqttyfRE6VZn8aD9JUPsnJfeEVQ-E/edit?usp=drive_link&ouid=103517831231294786486&rtpof=true&sd=true",
@@ -59,7 +59,7 @@ const requestURL = [
 				},
 			},
 			"2022-23": {
-				Quaterly: {
+				QUATERLY: {
 					Q1: {
 						pdf: "https://drive.google.com/file/d/1fUVzKuOFWo-6RulG-o1JHxgd4G50Xxib/view?usp=drive_link",
 						excel:
@@ -67,7 +67,7 @@ const requestURL = [
 						csv: "https://drive.google.com/file/d/16Vq9aRPfPD4NfrZM5iPfY3E2sCh9p22k/view?usp=drive_link",
 					},
 				},
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1Ck5es-AJVKFarAMqg-RKQ13tv7blHs-L/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1eS_nO4JPIVBsOG_PQBZsYUBIFzBpfORE/edit?usp=drive_link&ouid=103517831231294786486&rtpof=true&sd=true",
@@ -76,7 +76,7 @@ const requestURL = [
 			},
 
 			"2021-22": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1z9lx_2i1nejfXvWShIw9RQLESJ7j1I55/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1Y2VfWoE6wivHHlmQAONNLdZGPWxJ7dgj/edit?usp=drive_link&ouid=103517831231294786486&rtpof=true&sd=true",
@@ -85,7 +85,7 @@ const requestURL = [
 			},
 
 			"2020-21": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1-FJNbpMorqioLcOUt6XIasJcUEMQud4Z/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1mAe-R7TiD5fBnr8MYWVjlWw6i7P0vJlI/edit?usp=drive_link&ouid=103517831231294786486&rtpof=true&sd=true",
@@ -98,8 +98,8 @@ const requestURL = [
 		name: "CASH_FLOW_REPORT",
 		data: {
 			"2023-24": {
-				// Missing Quaterly key
-				Annual: {
+				// Missing QUATERLY key
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1e2bU6lnzYgvBYBO8ReW55vU-LaA2cJ5D/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1OajkH1CtpUYkE5qq6zW0Ry5xkCRk72UM/edit?usp=drive_link&ouid=109768404338383806081&rtpof=true&sd=true",
@@ -107,7 +107,7 @@ const requestURL = [
 				},
 			},
 			"2022-23": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1VRid8dMEn4tMKzatyhHX4yF7aksNK9rp/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1YLuC_qHEV4V7aQ3472De1zHS5SS_n_LB/edit?usp=drive_link&ouid=109768404338383806081&rtpof=true&sd=true",
@@ -115,7 +115,7 @@ const requestURL = [
 				},
 			},
 			"2021-22": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1RLPIQPTfNxkmEdpLOZayS79eoRY3riQ3/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1deuNen5xCAeWjhv3yj54wogfJEjvJqyh/edit?usp=drive_link&ouid=109768404338383806081&rtpof=true&sd=true",
@@ -124,7 +124,7 @@ const requestURL = [
 			},
 
 			"2020-21": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1I54dDwVq23ZH_woUEELddF0jDJIPyzQK/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1KEijkU6fUPJnqTj20KmjMNAdg7jx8LAL/edit?usp=drive_link&ouid=109768404338383806081&rtpof=true&sd=true",
@@ -137,7 +137,7 @@ const requestURL = [
 		name: "BALANCE_SHEET",
 		data: {
 			"2023-24": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1rzZ6tEft9XXSmHpxyzbk2TXcMlbjD7uQ/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/10-NKZDFp_vMOgR0KrvaAqKr8RBb7IDiE/edit?usp=drive_link&ouid=117368135132398447653&rtpof=true&sd=true",
@@ -145,7 +145,7 @@ const requestURL = [
 				},
 			},
 			"2022-23": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1t7oYo7Emb_bt1Fg3hzlnj8xYDey_VEsl/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1rCuJm8uHIUGgwFMyQqJncG9KcfC_RsAr/edit?usp=drive_link&ouid=117368135132398447653&rtpof=true&sd=true",
@@ -153,7 +153,7 @@ const requestURL = [
 				},
 			},
 			"2021-22": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1kdsHJxCRQJlzojhV5XTpgWpai3Y1NjUQ/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1M0Fi50KBxJv9WpOWmRwXrjzSdT8a3_IE/edit?usp=drive_link&ouid=117368135132398447653&rtpof=true&sd=true",
@@ -161,7 +161,7 @@ const requestURL = [
 				},
 			},
 			"2020-21": {
-				Annual: {
+				ANNUAL: {
 					pdf: "https://drive.google.com/file/d/1WIp20v2ZO99s6s0PNoRvX1fvfDCpLfKY/view?usp=drive_link",
 					excel:
 						"https://docs.google.com/spreadsheets/d/1k0VkG7bIrPtZJhSO-UKyJx7PP-AkziFk/edit?usp=drive_link",
@@ -182,17 +182,17 @@ const findReportURL = (reportType, year, period, format) => {
 	if (!data) {
 		return null;
 	}
-	if (period === "Annual") {
+	if (period === "ANNUAL") {
 		const periodData = data[period];
 		if (!periodData) {
 			return null;
 		}
 		return periodData[format] || null;
 	} else {
-		if (!data.Quaterly || !data.Quaterly[period]) {
+		if (!data.QUATERLY || !data.QUATERLY[period]) {
 			return null;
 		}
-		const periodData = data.Quaterly[period];
+		const periodData = data.QUATERLY[period];
 		return periodData[format] || null;
 	}
 };
@@ -220,11 +220,11 @@ app.get("/get-all-reports", (req, res) => {
 		const reportData = {};
 		Object.keys(report.data).forEach((year) => {
 			reportData[year] = {};
-			// Check if Quaterly exists
-			if (report.data[year].Quaterly) {
-				Object.keys(report.data[year].Quaterly).forEach((period) => {
+			// Check if QUATERLY exists
+			if (report.data[year].QUATERLY) {
+				Object.keys(report.data[year].QUATERLY).forEach((period) => {
 					reportData[year][period] = {};
-					Object.keys(report.data[year].Quaterly[period]).forEach((format) => {
+					Object.keys(report.data[year].QUATERLY[period]).forEach((format) => {
 						const url = findReportURL(report.name, year, period, format);
 						if (url) {
 							reportData[year][period][format] = url;
@@ -232,12 +232,12 @@ app.get("/get-all-reports", (req, res) => {
 					});
 				});
 			}
-			// Add Annual report URLs
-			reportData[year].Annual = {};
-			Object.keys(report.data[year].Annual).forEach((format) => {
-				const url = findReportURL(report.name, year, "Annual", format);
+			// Add ANNUAL report URLs
+			reportData[year].ANNUAL = {};
+			Object.keys(report.data[year].ANNUAL).forEach((format) => {
+				const url = findReportURL(report.name, year, "ANNUAL", format);
 				if (url) {
-					reportData[year].Annual[format] = url;
+					reportData[year].ANNUAL[format] = url;
 				}
 			});
 		});
